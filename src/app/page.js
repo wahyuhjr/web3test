@@ -1,19 +1,15 @@
-import { AppleCardsCarousel, AppleCardsCarouselDemo } from "@/components/AppleCardCarousel";
+// import { AppleCardsCarousel, AppleCardsCarouselDemo } from "@/components/AppleCardCarousel";
+import CardCarouselNFT from "@/components/cardCarousel";
 import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar/navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="">
         <Navbar />
-      </div>
-      <div>
         <Hero />
-      </div>
-      <div>
-        <AppleCardsCarousel />
+        <CardCarouselNFT/>
       </div>
     </>
   );

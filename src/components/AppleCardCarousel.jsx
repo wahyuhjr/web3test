@@ -9,11 +9,14 @@ export function AppleCardsCarousel() {
   ));
 
   return (
-    (<div className="w-full h-full py-20">
-      <h2
-        className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Get to know your iSad.
-      </h2>
+    (<div className="container mx-auto w-full h-full py-20">
+      <div className="flex justify-between">
+        <h2
+          className="text-xl md:text-5xl font-semibold text-neutral-800 dark:text-neutral-200 font-sans">
+          Largest Sale
+        </h2>
+        <button className="rounded-full p-2 border px-10 border-gray-300 text-black">View all</button>
+      </div>
       <Carousel items={cards} />
     </div>)
   );
@@ -73,5 +76,5 @@ const data = [
     src: "/Image4.png",
     content: <DummyContent />,
   },
-  
+
 ];
