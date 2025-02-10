@@ -1,7 +1,8 @@
 // import { AppleCardsCarousel, AppleCardsCarouselDemo } from "@/components/AppleCardCarousel";
-import CardCarouselNFT from "@/components/cardCarousel";
 import { Hero } from "@/components/hero";
+import LargestSale from "@/components/largestSale";
 import { Navbar } from "@/components/navbar/navbar";
+import RecentTrans from "@/components/recentTrans";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <div className="">
         <Navbar />
         <Hero />
-        <CardCarouselNFT/>
+        <LargestSale/>
+        <RecentTrans/>
       </div>
     </>
   );

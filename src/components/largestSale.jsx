@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Card, CardContent } from "@/components/ui/card"
+import { Card } from "@/components/ui/card"
 import {
     Carousel,
     CarouselContent,
@@ -56,15 +56,15 @@ const nftData = [
     },
 ];
 
-export default function CardCarouselNFT() {
+export default function LargestSale() {
     return (
-      <main className="min-h-screen bg-background p-8">
+      <main className="bg-background p-8 pt-28">
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between items-center mb-8">
+          <div className="md:flex justify-between items-center md:mb-8">
             <h1 className="text-3xl font-bold">Largest Sales</h1>
             <Button 
               variant="outline" 
-              className="rounded-full hover:bg-gray-100"
+              className="rounded-full hover:bg-gray-100 mt-6 md:mt-0 px-6 py-5"
               aria-label="View all sales"
             >
               View all
@@ -78,7 +78,7 @@ export default function CardCarouselNFT() {
             }}
             className="w-full"
           >
-            <CarouselContent className="-ml-4">
+            <CarouselContent className="-ml-4 pt-8">
               {nftData.map((nft, index) => (
                 <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/4 py-2">
                   <Card className="overflow-hidden border-none rounded-3xl transition-transform transform hover:scale-105">
