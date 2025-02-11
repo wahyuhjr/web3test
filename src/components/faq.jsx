@@ -84,7 +84,7 @@ const faqs = [
 
 export function FaqSection() {
   return (
-    <div className="bg-black py-24 px-4">
+    <div className="bg-[#111111] py-24 px-4">
       <div className="max-w-4xl mx-auto text-gray-300">
         <div className="flex justify-start">
           <h2 className="text-3xl font-semibold text-center text-white py-16">

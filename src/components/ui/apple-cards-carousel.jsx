@@ -91,7 +91,7 @@ export const Carousel = ({
               "flex flex-row justify-start gap-4 pl-4",
               // remove max-w-4xl if you want the carousel to span the full width of its container
               "mx-auto"
-            )}>
+            )}> 
             {items.map((item, index) => (
               <motion.div
                 initial={{
@@ -179,7 +179,7 @@ export const Card = ({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="bg-black/80 backdrop-blur-lg h-full w-full fixed inset-0" />
+            className="bg-[#111111]/80 backdrop-blur-lg h-full w-full fixed inset-0" />
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -188,7 +188,7 @@ export const Card = ({
             layoutId={layout ? `card-${card.title}` : undefined}
             className="max-w-5xl mx-auto bg-white dark:bg-neutral-900 h-fit  z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative">
             <button
-              className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"
+              className="sticky top-4 h-8 w-8 right-0 ml-auto bg-[#111111] dark:bg-white rounded-full flex items-center justify-center"
               onClick={handleClose}>
               <IconX className="h-6 w-6 text-neutral-100 dark:text-neutral-900" />
             </button>

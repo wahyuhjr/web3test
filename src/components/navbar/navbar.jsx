@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-black p-6">
+    <nav className="w-full bg-[#111111] p-6">
       <div className="container mx-auto text-white">
         <div className="flex justify-between items-center">
           {/* Logo */}
