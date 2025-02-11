@@ -16,43 +16,43 @@ const nftData = [
         id: "#3100",
         price: "4.2KΞ ($7.58M)",
         date: "Mar 11, 2021",
-        image: "/image1.png", // Replace with actual image path
+        image: "/Image1.png", 
     },
     {
         id: "#7408",
         price: "4.2KΞ ($7.57M)",
         date: "Mar 11, 2021",
-        image: "/image2.png", // Replace with actual image path
+        image: "/Image2.png", 
     },
     {
         id: "#4156",
         price: "4.2KΞ ($10.26M)",
         date: "Dec 09, 2021",
-        image: "/image3.png", // Replace with actual image path
+        image: "/Image3.png", 
     },
     {
         id: "#5217",
         price: "2.25KΞ ($5.3M)",
         date: "Jul 30, 2021",
-        image: "/image4.png", // Replace with actual image path
+        image: "/Image4.png", 
     },
     {
         id: "#5217",
         price: "2.25KΞ ($5.3M)",
         date: "Jul 30, 2021",
-        image: "/image4.png", // Replace with actual image path
+        image: "/Image4.png", 
     },
     {
         id: "#5217",
         price: "2.25KΞ ($5.3M)",
         date: "Jul 30, 2021",
-        image: "/image4.png", // Replace with actual image path
+        image: "/Image4.png", 
     },
     {
         id: "#5217",
         price: "2.25KΞ ($5.3M)",
         date: "Jul 30, 2021",
-        image: "/image4.png", // Replace with actual image path
+        image: "/Image4.png", 
     },
 ];
 

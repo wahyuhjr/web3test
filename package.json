@@ -34,6 +34,7 @@
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7",
     "useref": "^1.4.4",
+    "vercel": "^41.0.3",
     "viem": "^2.23.0",
     "wagmi": "^2.14.11"
   },
