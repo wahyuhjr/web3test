@@ -86,7 +86,8 @@ export default function LargestSale() {
                       <Image
                         src={nft.image}
                         alt={`NFT ${nft.id}`}
-                        fill
+                        width={500}
+                        height={500}
                         className="object-cover"
                         priority={index < 4}
                       />

@@ -47,6 +47,7 @@ export const Hero = () => {
           ))}
         </motion.div>
       </div>
+      
       <div className="overflow-hidden">
         <MeetPunks />
       </div>
