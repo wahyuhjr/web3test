@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { HoverEffect } from "./ui/card-hover-effect";
 import Link from "next/link";
+import GalleryComponent from "./header";
 
 const avatars = [
   "/Image1.png",
@@ -53,7 +54,7 @@ export const Hero = () => {
         <p className="text-lg mt-4">A collection of 10,000 unique NFTs</p>
         <h3 className="text-2xl mt-8 font-bold">0.01 ETH</h3>
         <p className="text-lg mt-4">Current floor price</p>
-        <button className="bg-[#638596] text-white px-8 py-2 mt-8 rounded-full font-bold">
+        <button className="bg-blue-600 text-white px-8 py-2 mt-8 rounded-xl font-bold">
           Mint now
         </button>
       </div>

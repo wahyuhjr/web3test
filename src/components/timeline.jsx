@@ -8,7 +8,7 @@ const steps = [
     number: 1,
     title: "Download and install MetaMask",
     description: "Download and install a Chrome browser plugin called MetaMask. This will allow websites (that you authorise) access to your Ethereum account.",
-    icon: "🦊",
+    icon: "/metamask.svg",
     action: {
       text: "Download MetaMask",
       url: "#"
@@ -18,19 +18,19 @@ const steps = [
     number: 2,
     title: "Buy some Ethereum",
     description: "If you made a new account, buy some Ethereum. The MetaMask plugin has a button that will allow you to buy Ether from Coinbase.",
-    icon: "⚡"
+    icon: "/eth.png"
   },
   {
     number: 3,
     title: "Start bidding, buying and selling",
     description: "Once you have the plugin installed, this website will recognise it and add buttons that allow you to bid on, buy and sell punks directly in the interface.",
-    icon: "🎉"
+    icon: "/opensea.png"
   }
 ];
 
-export default function Home() {
+export default function Timeline() {
   return (
-    <main className="min-h-screen bg-[#111111] text-white p-8">
+    <main className="min-h-screen bg-[#111111] text-white p-8 py-16 md:mt-24 rounded-t-3xl">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-16">How do I get a punk?</h1>
         
@@ -48,7 +48,7 @@ export default function Home() {
                 
                 <div className="flex-1 pt-2">
                   <div className="flex items-center gap-3 mb-2">
-                    <span className="text-2xl">{step.icon}</span>
+                    <Image src={step.icon} width={24} height={24} alt="icons"/>
                     <h2 className="text-xl font-semibold">{step.title}</h2>
                   </div>
                   
@@ -58,8 +58,7 @@ export default function Home() {
                   
                   {step.action && (
                     <Button
-                      variant="outline"
-                      className="rounded-full border-gray-800 hover:bg-gray-800 transition-colors"
+                      className="rounded-xl bg-blue-600 border-blue-700 hover:bg-gray-800 transition-colors"
                     >
                       {step.action.text}
                     </Button>

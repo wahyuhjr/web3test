@@ -62,7 +62,7 @@ export default function RecentTrans() {
             <div className="max-w-7xl mx-auto">
                 <div className="md:flex justify-between items-center md:mb-8">
                     <div className="">
-                        <h1 className="text-3xl font-bold">Largest Sales</h1>
+                        <h1 className="text-3xl font-bold">Recent Transaction</h1>
                         <p className="pt-6 text-sm text-gray-500">Updated 25 second ago</p>
                     </div>
                     <Button
